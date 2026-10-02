@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    ---color1: #A82020;
+    ---color2: #22396F;
+    ---color3: #2A7C13;
+    ---color4: #000000;
+    ---color5: #FFF8DE;
+
+    ---color6: #FCF1D0; 
+    ---color7: #E3F2FD;  
+    ---color8: #D8FFC5; 
+    background-image: url(imagenes/imagenes/fondo.jpg);
+}
+
+#cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border-bottom: 2px solid var(---color4);
+}
+
+#cabecera h1{
+    color:#07B0F2;
+    background-color: white;
+}
+#cabecera img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    object-fit: cover;
+} 
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: "Poppins", sans-serif;      
+}
+
+#contenido{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    width: 880px;
+    margin: 20px auto;
+
+    /* marco de afuera */
+    border: 3px solid var(---color4);
+    padding: 10px;
+    box-sizing: border-box;
+} 
+
+.cuadro{
+    width: 270px;
+    min-height: 540px; 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    border: 1px solid var(---color4);
+    font-family: "Poppins", sans-serif; 
+    flex-direction: column;
+}
+
+.cuadro.html {
+    background-color: var(---color6);
+}
+
+.cuadro.css {
+    background-color: var(---color7);
+}
+
+.cuadro.js {
+    background-color: var(---color8);
+}
+
+
+.cuadro h2 {
+     font-size: 17px; 
+     padding: 3px;
+     margin: 14px ;
+     color: rgb(252, 249, 249);
+     text-align: center;
+}
+
+.html h2 {
+    background-color: var(---color1);
+}
+.css h2 {
+    background-color: var(---color2);
+}
+.js h2 {
+    background-color: #2A7C13;
+}
+
+
+.cuadro p{
+    text-align: left;
+    margin: 6;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.cuadro img {
+    width: 110px;
+    height: auto;
+    display: block;
+    margin: auto auto 0;
+}
+
+
+#contenido{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 880px;
+    margin: 20px auto;
+    box-sizing: border-box;
+} 
+
+.rectangulo{
+    width: 270px;
+    min-height: 540px; 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    border: 1px solid var(---color4);
+    font-family: "Poppins", sans-serif; 
+    flex-direction: column;
+
+    font-size: 15px;
+    line-height: 1.5 ;
+}
+
+.rectangulo.HTML {
+    background-color: var(---color6);
+}
+
+.rectangulo.CSS {
+    background-color: var(---color7);
+}
+
+.rectangulo.JS {
+    background-color: var(---color8);
+}
+
+.rectangulo h2 {
+     font-size: 17px; 
+     padding: 3px;
+     margin: 14px ;
+     color: rgb(252, 249, 249);
+     text-align: center;
+}
+
+.HTML h2 {
+    background-color: var(---color1);
+}
+.CSS h2 {
+    background-color: var(---color2);
+}
+.JS h2 {
+    background-color: #2A7C13;
+}
+
+.rectangulo p{
+    text-align: left;
+    margin: 6;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#pie img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px;   
+}
+
+#pie p {
+    padding: 10px;
+    color: #000000;
+    background-color: white;
+    text-align: center;
+    border: px solid black;
+    box-shadow: 3px 3px 4px;
+    border-radius: 6px;
+   
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.pagina > h2 {
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+hr{
+    border: 0;
+    border-top: 2px solid black;
+    margin: 20px ;
+}
+
+.cabecera > h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+  
+}
+
+
+h4{
+    color: var(---color4);
+    background-color: white; 
+}
+
+.autor {
+    display: flex;
+    margin-left: 1070px;
+    text-align: right;
+    
+   
+     
+}
+
+.sombra {
+    box-shadow: 10px 10px 15px;
+
+}
+
+
